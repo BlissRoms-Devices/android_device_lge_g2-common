@@ -24,7 +24,6 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno330
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := krait
-USE_CLANG_PLATFORM_BUILD := true
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := galbi
@@ -46,6 +45,13 @@ KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-ea
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 # Rom Toolchain
 TARGET_GCC_VERSION_EXP := 4.9-uber
+
+# Optimizations
+STRICT_ALIASING := false
+CLANG_O3 := false
+ENABLE_GCCONLY := true
+GRAPHITE_OPTS := false
+USE_PIPE := true
 
 # Audio
 AUDIO_FEATURE_ENABLED_NEW_SAMPLE_RATE := true
