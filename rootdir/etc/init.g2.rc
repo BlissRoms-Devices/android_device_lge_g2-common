@@ -65,7 +65,7 @@ on init
     export EXTERNAL_STORAGE /storage/emulated/legacy
     export EMULATED_STORAGE_SOURCE /mnt/shell/emulated
     export EMULATED_STORAGE_TARGET /storage/emulated
-    export EXTERNAL_STORAGE3 /storage/usbdisk0
+    export EXTERNAL_SORTAGE3 /storage/usbdisk0
 
     # Support legacy paths
     symlink /sdcard /mnt/sdcard
@@ -74,7 +74,7 @@ on init
     symlink /sdcard /storage/sdcard0
     symlink /mnt/shell/emulated/0 /storage/emulated/legacy
     symlink /storage/usbdisk0 /storage/usb
-    symlink /sdcard1 /storage/sdcard1
+    symlink /sdcard1 /sotrage/sdcard1
     symlink /sdcard1 /mnt/media_rw/sdcard1
 
 on fs
