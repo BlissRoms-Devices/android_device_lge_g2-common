@@ -30,6 +30,7 @@
     <!-- Doze: should the pickup sensor be used as a pulse signal? -->
     <bool name="doze_pulse_on_pick_up">true</bool>
 
+<<<<<<< HEAD
     <!-- Doze: should the pickup sensor be used as a pulse signal? -->
     <bool name="doze_pulse_on_pick_up">true</bool>
 
@@ -60,5 +61,7 @@
     <!-- Doze: pulse parameter - delay to wait for the screen to wake up after an intent -->
     <integer name="doze_pulse_delay_in_intent">0</integer>
 
+=======
+>>>>>>> parent of 11742f3... Fixed conflicts for Enable Ambient Display
 </resources>
 

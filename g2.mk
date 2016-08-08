@@ -107,10 +107,6 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     memtrack.msm8974
 
-# Doze
-PRODUCT_PACKAGES += \
-    G2Doze
-
 # Gello
 PRODUCT_PACKAGES += \
     Gello
