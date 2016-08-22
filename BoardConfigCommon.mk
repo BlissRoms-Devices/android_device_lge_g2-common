@@ -44,7 +44,7 @@ TARGET_KERNEL_SOURCE := kernel/lge/msm8974
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-uber/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 # Rom Toolchain
-TARGET_GCC_VERSION_EXP := 4.9-uber
+# TARGET_GCC_VERSION_EXP := 4.9-uber
 
 # Optimizations
 STRICT_ALIASING := false
